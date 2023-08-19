@@ -1,0 +1,2 @@
+<li *ngFor="let number of RandomNumbersArray |  paginate: { itemsPerPage: itemsOnEachPage, currentPage: CurrentPageNumber }">{{number}}</li>
+<pagination-controls (pageChange)="OnPageChange($event)"></pagination-controls>

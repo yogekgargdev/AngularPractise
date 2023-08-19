@@ -4,7 +4,6 @@ declare const genRandomNumbers: any;
 @Component({
     selector: 'app-product',
     template: `<div *ngIf='ProductShow'>Product Works</div>
-               <div>{{data}}</div>
                <br><br>
                <div><li *ngFor='let product of productsArray'>{{product}}</li></div><br>
                <div>Iterating Through Complex Objects</div>
