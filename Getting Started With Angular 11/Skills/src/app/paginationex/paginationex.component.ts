@@ -7,7 +7,7 @@ declare const genRandomNumbers:any;
 })
 export class PaginationexComponent {
 
-  RandomNumbersArray = <[]>genRandomNumbers();
+  RandomNumbersArray = <[]>genRandomNumbers().sort(function(x:number,y:number){return x-y});
 
   itemsOnEachPage: number = 10;
   CurrentPageNumber:number =1
