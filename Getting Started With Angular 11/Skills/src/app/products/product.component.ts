@@ -2,8 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: 'app-product',
-    templateUrl: './product.component.html'
+    template: `<div *ngIf='ProductShow'>Product Works</div>`
 })
 export class ProductComponent{
+    ProductShow = true;
 
 }
