@@ -8,6 +8,7 @@ import { ProductFeatureModule } from './product-feature/product-feature.module';
 import { PaginationexComponent } from './paginationex/paginationex.component';
 import { ClassifyPipe } from './classify.pipe';
 import { CardComponent } from './card/card.component';
+import { CardoutputComponent } from './cardoutput/cardoutput.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CardComponent } from './card/card.component';
     HomeComponent,
     PaginationexComponent,
     ClassifyPipe,
-    CardComponent
+    CardComponent,
+    CardoutputComponent
   ],
   imports: [
     BrowserModule,

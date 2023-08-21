@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Skills';
+
+  p_outputest(event: string) {
+    console.log(event);
+  }
 }
