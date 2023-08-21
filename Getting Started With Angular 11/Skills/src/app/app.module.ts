@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { ProductFeatureModule } from './product-feature/product-feature.module';
 import { PaginationexComponent } from './paginationex/paginationex.component';
 import { ClassifyPipe } from './classify.pipe';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PaginationexComponent,
-    ClassifyPipe
+    ClassifyPipe,
+    CardComponent
   ],
   imports: [
     BrowserModule,
